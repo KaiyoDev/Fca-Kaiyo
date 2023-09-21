@@ -24,7 +24,7 @@ global.Fca = new Object({
   },
   Data: new Object({
     ObjFastConfig: {
-    "Config_Version": "3.0.0",
+    "Config_Version": "1.0.0",
     "Language": "vi",
     "AutoUpdate": true,
     "MainColor": "#54C9F0",

@@ -1,6 +1,6 @@
 {
   "_from": "fca-kaiyo",
-  "_id": "fca-kaiyo@3.0.0",
+  "_id": "fca-kaiyo@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-l43kN/J5GH/8/oM6dQ8oNcg/l9S7fNodu2b9o/hQw3FlwarUU2Jo6v8q5kehuWgPoA4Jj1B5rtGzXuRV1uQasg==",
   "_location": "/fca-kaiyo",
@@ -123,7 +123,7 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/fca-kaiyo/-/fca-kaiyo-3.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/fca-kaiyo/-/fca-kaiyo-1.0.0.tgz",
   "_shasum": "befd7b2e8164db80d9de776e62d7ec879b8857bf",
   "_spec": "fca-kaiyo",
   "_where": "/home/runner/Mirai",
@@ -223,5 +223,5 @@
     "prettier": "prettier utils.js src/* --write",
     "test": "mocha"
   },
-  "version": "3.0.0"
+  "version": "1.0.0"
 }
