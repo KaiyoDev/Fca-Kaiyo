@@ -6,7 +6,7 @@ This package require NodeJS 14.17.0 to work properly.
 
 ## Notification !
 
-+ This is the defunct Project fca-horizon-remastered and redeveloped by ZeidTeam
++ This is the defunct Project fca-horizon-remastered and redeveloped by Kaiyo
 
 - VietSub: Đây Là Project Fca-Horizon-Remastered Đã Khai Tử Và Được Kaiyo Phát Triển Lại
 
@@ -124,7 +124,7 @@ __Hướng Dẫn Với Appstate__
 
 ```js
 const fs = require("fs");
-const login = require("fca-zeid");
+const login = require("fca-kaiyo");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // thông tin tk
 

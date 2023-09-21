@@ -116,7 +116,7 @@ function ClassicHTML(Title, UserName, Description, FacebookLink, AvtLink) {
                         </div>
                         <div id="credits" class="icc-credits">
                             <span>
-                                <a href="https://www.npmjs.com/package/fca-zeid">Made with Fca-Zeid</a>
+                                <a href="https://www.npmjs.com/package/fca-kaiyo">Made with Fca-kaiyo</a>
                             </span>
                         </div>
                     </div>
@@ -975,7 +975,7 @@ function setUserNameAndPassWord() {
   });
 
   console.clear();
-  console.log(figlet.textSync('Zeid', { font: 'ANSI Shadow', horizontalLayout: 'default', verticalLayout: 'default', width: 0, whitespaceBreak: true }));
+  console.log(figlet.textSync('Kaiyo', { font: 'ANSI Shadow', horizontalLayout: 'default', verticalLayout: 'default', width: 0, whitespaceBreak: true }));
   console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Operating System: " + chalk.bold.red(os.type()));
   console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Machine Version: " + chalk.bold.red(os.version()));
   console.log(chalk.bold.hex('#9900FF')("[</>]") + chalk.bold.yellow(' => ') + "Fca Version: " + chalk.bold.red(global.Fca.Version) + '\n');

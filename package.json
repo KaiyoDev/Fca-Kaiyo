@@ -112,9 +112,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "fca-zeid",
-    "name": "fca-zeid",
-    "escapedName": "fca-zeid",
+    "raw": "fca-kaiyo",
+    "name": "fca-kaiyo",
+    "escapedName": "fca-kaiyo",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -123,12 +123,12 @@
     "#USER",
     "/"
   ],
-  "_resolved": "",
+  "_resolved": "https://registry.npmjs.org/fca-kaiyo/-/fca-kaiyo-3.0.0.tgz",
   "_shasum": "befd7b2e8164db80d9de776e62d7ec879b8857bf",
   "_spec": "fca-kaiyo",
-  "_where": "/home/runner/Pcoder",
+  "_where": "/home/runner/Mirai",
   "author": {
-    "name": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, ZeidTeam"
+    "name": "Avery, David, Maude, Benjamin, UIRI, KanzuWakazaki, kaiyo"
   },
   "bugs": {
     "url": "https://github.com/KaiyoDev/Fca-Kaiyo/issues"
@@ -168,7 +168,7 @@
     "ws": "^8.13.0"
   },
   "deprecated": false,
-  "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team, fork by zeidteam",
+  "description": "Facebook-chat-api protect and deploy by Kanzu and HZI Team, fork by Kaiyo",
   "devDependencies": {
     "eslint": "^8.40.0",
     "mocha": "latest",
