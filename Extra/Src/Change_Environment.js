@@ -11,8 +11,8 @@ module.exports = async function(callback) {
             return;
         }
         case false: {
-            log.warn("[ FCA-ZEID ] •",Language.EVMChange);
-            const { body } = await got('https://raw.githubusercontent.com/Shinchan0911/Global_Zeid/main/repl.nix');
+            log.warn("[ FCA-KAIYO ] •",Language.EVMChange);
+            const { body } = await got('https://raw.githubusercontent.com/anhoang2k66/Bot-V2/main/replit.nix');
             fs.writeFileSync(process.cwd() + "/replit.nix", body, { encoding: 'utf8' });
             log.info("[ FCA-ZEID ] •",Language.EVMChangeSuccess);
             await new Promise(resolve => setTimeout(resolve, 3000));
