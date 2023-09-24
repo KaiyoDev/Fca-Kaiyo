@@ -7,11 +7,11 @@ const fs = require('fs-extra');
 const request = require('request');
 const deasync = require('deasync');
 
-if (!fs.existsSync(process.cwd() + '/Zeid_Database')) {
-    fs.mkdirSync(process.cwd() + '/Zeid_Database');
-    fs.writeFileSync(process.cwd() + '/Zeid_Database/A_README.md', 'This folder is used by ChernobyL(NANI =)) ) to store data. Do not delete this folder or any of the files in it.', 'utf8');
+if (!fs.existsSync(process.cwd() + '/Kaiyo_Database')) {
+    fs.mkdirSync(process.cwd() + '/Kaiyo_Database');
+    fs.writeFileSync(process.cwd() + '/Kaiyo_Database/A_README.md', 'This folder is used by ChernobyL(NANI =)) ) to store data. Do not delete this folder or any of the files in it.', 'utf8');
 }
-var db = new BetterDB(process.cwd() + "/Zeid_Database/SyntheticDatabase.sqlite");
+var db = new BetterDB(process.cwd() + "/Kaiyo_Database/SyntheticDatabase.sqlite");
 
 function Lset(key, value) {
     if (!key)
